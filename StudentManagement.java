@@ -63,8 +63,8 @@ public class StudentManagement {
     // ----------------- Main -----------------
     public static void main(String[] args) {
         // Tạo sinh viên
-        Student s1 = new Student("SV001", "Nguyen Van A", "Hanoi");
-        Student s2 = new Student("SV002", "Tran Thi B", "Hai Phong");
+        Student s1 = new Student("23010645", "Nguyen Anh Tu", "Hanoi");
+        Student s2 = new Student("22010067", "Dinh Van Bon", "Hai Phong");
 
         // Tạo môn học
         Course c1 = new Course("C001", "Lap trinh Java", 3);
@@ -83,3 +83,4 @@ public class StudentManagement {
         System.out.println(e4.getInfo());
     }
 }
+
